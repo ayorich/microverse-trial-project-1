@@ -1,9 +1,34 @@
+#main {
+  text-align: center;
+}
 #image {
-    max-width:  100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 #img-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#tribute-info {
+  margin: 50px 0;
+}
+.list__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list__content {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+.list__bottom {
+  max-width: 550px;
+  text-align: left;
+}
+
+li {
+  margin: 16px 0;
 }
